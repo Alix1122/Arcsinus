@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Design - Solutions Intérieur & Extérieur</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Arcsinus</div>
+            
+            <input type="checkbox" id="menu-toggler">
+            <label for="menu-toggler" id="hamburger-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Arcsinus conçoit et réalise des projets</h1>
+            <p>Projes d'aménagement interieur fonctionnels, durables et adaptés à chaque usage professionnel.</p>
+            <a href="#contact" class="cta-button">Nous Contacter</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Nos Services</h2>
+        <ul class="services-grid">
+            <a href="./service/interieure.html">
+                <li class="service-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Architecture Intérieure</h3>
+                    <p>Conception et rénovation d'espaces intérieurs modernes et fonctionnels</p>
+                </li>
+            </a>
+            <a href="./service/exterieure.html">
+                <li class="service-card">
+                    <i class="fas fa-building"></i>
+                    <h3>Architecture Extérieure</h3>
+                    <p>Création de façades et d'espaces extérieurs harmonieux</p>
+                </li>
+            </a>
+            <a href="./service/design.html">
+                <li class="service-card"> 
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>Design sur Mesure</h3>
+                    <p>Solutions personnalisées adaptées à vos besoins</p>
+                </li>
+            </a>
+        </ul>
+    </section>
+
+    <section id="projets" class="projects">
+        <h2>Nos Projets</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="./img/RésidenceModerne.jpg" alt="Projet 1">
+                <h3>Résidence Moderne</h3>
+                <p>Rénovation complète d'une maison familiale</p>
+            </div>
+            <div class="project-card">
+                <img src="./img/EspaceCommercial.jpg" alt="Projet 2">
+                <h3>Espace Commercial</h3>
+                <p>Design d'un showroom contemporain</p>
+            </div>
+            <div class="project-card">
+                <img src="./img/espacePublic.jpg" alt="Projet 3">
+                <h3>Espace Publice</h3>
+                <p>Création des espaces publice</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Nom" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Téléphone">
+                <textarea placeholder="Votre message" required></textarea>
+                <button type="submit" class="submit-button">Send</button>
+            </form>
+            <div class="contact-info">
+                <h3>Nos Coordonnées</h3>
+                <p><i class="fas fa-map-marker-alt"></i>Rue Tripoli, Central Park A, 4ème étage, numéro 29, Mohammédia</p>
+                <p><i class="fas fa-phone"></i>+212 6 62 17 46 04</p>
+                <p><i class="fas fa-envelope"></i> contact@arcsinus-design.ma</p>
+                <p><i class="fas fa-clock"></i> Monday - Friday : 9:00 AM - 6 PM</p>
+                <p><i class="fas fa-clock"></i> Saturday - Sunday : Closed</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Arcsinus Design</h4>
+                <p>Votre partenaire pour des projets d'architecture exceptionnels</p>
+            </div>
+            <div class="footer-section">
+                <h4>Liens Rapides</h4>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Suivez-nous</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/ArcsinusArchitecture/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/afa.architecture/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Arcsinus. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>

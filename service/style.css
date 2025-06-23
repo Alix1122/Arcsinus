@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&display=swap');
+
+/* Variables globales */
+:root {
+    --primary-color: #000;
+    --secondary-color: #2ECC71;
+    --accent-color: #E74C3C;
+    --background-color: #f3f3f3;
+    --text-color: #333;
+}
+
+/* Reset et styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+}
+
+header .back-button {
+    color: white;
+    padding-left: 25px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+header h1 {
+    flex: 1;
+    text-align: center;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    text-shadow: -5px 5px 20px black;
+}
+
+/* Section Content */
+.content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.content img {
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    display: block; /* Assure que les images s'affichent comme des blocs */
+}
+
+/* Section Presentation */
+
+#prestation {
+    background-color: #f3f3f3;
+    padding: 10px 0px 100px 0;
+}
+
+
+#prestation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.imagesPrestations h4 {
+    font-family: 'Advent Pro', cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.imagesPrestations img {
+    border-radius: 10px;
+    box-shadow: 5px 4px 8px 4px rgb(0, 0, 0, 0.8);
+    width: 200px;
+    height: 300px;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #f3f3f3;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+    header {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header 
+    .back-button 
+    .content 
+    .footer-bottom 
+
+    .imagesPrestations
+    {
+        grid-template-columns: 1fr;
+        font-size: 1.2rem;
+        left: 15px;
+    }
+}
